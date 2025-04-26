@@ -45,10 +45,8 @@ export default function InfiltrationMap() {
         );
 
         if (countryEvents.length) {
-          const successfulEvents = countryEvents.filter(
-            (e) => e.success
-          ).length;
-          const score = successfulEvents / countryEvents.length;
+          const successfulEvents = countryEvents.filter((e) => e.success);
+          const score = successfulEvents.length / countryEvents.length;
           const baseColor = greenRedMix(score);
           return [...baseColor, 200] as [number, number, number, number];
         }

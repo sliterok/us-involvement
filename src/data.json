@@ -14,7 +14,6 @@
     "success": true,
     "summary": "At the onset of the 20th century, the United States shaped or installed governments in many countries around the world, including neighbors Hawaii, Panama, Nicaragua, Mexico, Haiti, and the Dominican Republic.",
     "countries": [
-      "Hawaii",
       "Panama",
       "Nicaragua",
       "Mexico",
@@ -28,14 +27,7 @@
     "type": "Invasion / Occupation",
     "success": true,
     "summary": "During World War II, the U.S. helped overthrow many Nazi German or Imperial Japanese puppet regimes. Examples include regimes in the Philippines, Korea, East China, and parts of Europe.",
-    "countries": [
-      "Philippines",
-      "South Korea",
-      "China",
-      "Germany",
-      "Italy",
-      "Europe"
-    ]
+    "countries": ["Philippines", "South Korea", "China", "Germany", "Italy"]
   },
   {
     "title": "Collapse of Adolf Hitler's Government",
@@ -139,7 +131,7 @@
     "type": "Invasion / Occupation",
     "success": true,
     "summary": "The United States annexed the Republic of Texas, at the time considered by Mexico to be a rebellious state of Mexico.",
-    "countries": ["Mexico", "Texas"]
+    "countries": ["Mexico"]
   },
   {
     "title": "Invasion of California",
@@ -147,7 +139,7 @@
     "type": "Invasion / Occupation",
     "success": true,
     "summary": "During the war with Mexico that ensued after the annexation of Texas, the United States seized Alta California from Mexico.",
-    "countries": ["Mexico", "California"]
+    "countries": ["Mexico"]
   },
   {
     "title": "Support for Liberal Forces in Mexico against Maximilian I",
@@ -171,7 +163,7 @@
     "type": "Coup",
     "success": true,
     "summary": "Anti-monarchs, mostly Americans, in Hawaii, engineered the overthrow of the Kingdom of Hawaii.",
-    "countries": ["Hawaii"]
+    "countries": ["United States of America"]
   },
   {
     "title": "Philippine–American War",
@@ -459,7 +451,7 @@
     "type": "Proxy-War / Armed Support",
     "success": false,
     "summary": "The CIA assisted Kuomintang incursions into Western China from Burma, providing weapons and supplies, in hopes of retaking China. However, each invasion was repelled.",
-    "countries": ["China", "Burma"]
+    "countries": ["China", "Myanmar"]
   },
   {
     "title": "Possible U.S. Role in Egyptian Coup",
@@ -483,14 +475,6 @@
     "type": "Election Interference",
     "success": false,
     "summary": "The CIA began supporting 18 candidates in the 1952 Iranian legislative election, which was suspended by Mosaddegh.",
-    "countries": ["Iran"]
-  },
-  {
-    "title": "1953 Iranian Coup d'état (Operation Ajax/Boot)",
-    "years": "1953",
-    "type": "Coup",
-    "success": true,
-    "summary": "The CIA, along with British MI6, instigated the 1953 Iranian coup d'état to remove Prime Minister Mohammad Mosaddegh and restore the Shah's authority.",
     "countries": ["Iran"]
   },
   {
@@ -556,14 +540,6 @@
     "success": false,
     "summary": "The US supported the Republic of Vietnam against the communist insurgency that began in 1959, increasing involvement after the 1960 US election.",
     "countries": ["Vietnam"]
-  },
-  {
-    "title": "CIA Backing of Cuban Exiles' Invasion Attempt (Bay of Pigs)",
-    "years": "1961",
-    "type": "Invasion / Occupation",
-    "success": false,
-    "summary": "The CIA backed a force of CIA-trained Cuban exiles to invade Cuba in an attempt to overthrow Castro's government, but the invasion failed.",
-    "countries": ["Cuba"]
   },
   {
     "title": "Operation MONGOOSE against Cuba",
@@ -660,14 +636,6 @@
     "success": true,
     "summary": "The United States continued to support the Brazilian military dictatorship that came to power in 1964 through Operation Condor.",
     "countries": ["Brazil"]
-  },
-  {
-    "title": "US Role in Mass Killings and Overthrow of Sukarno in Indonesia",
-    "years": "1965-1967",
-    "type": "Proxy-War / Armed Support",
-    "success": true,
-    "summary": "The US had knowledge of, facilitated, and encouraged mass killings of alleged PKI supporters in Indonesia after a failed movement, which significantly weakened President Sukarno's support base, leading to his replacement by Suharto.",
-    "countries": ["Indonesia"]
   },
   {
     "title": "Possible US Involvement in the 1970 Coup against Norodom Sihanouk in Cambodia",
@@ -804,7 +772,6 @@
     "success": true,
     "summary": "The National Endowment for Democracy (NED) funded émigré journals and supported nationalist and democratic aspirations among minorities in the Soviet Union, contributing to its decentralization.",
     "countries": [
-      "Soviet Union",
       "Russia",
       "Ukraine",
       "Armenia",
@@ -878,28 +845,12 @@
     "countries": ["Republic of Serbia"]
   },
   {
-    "title": "US Invasion of Afghanistan",
-    "years": "2001-2021",
-    "type": "Invasion / Occupation",
-    "success": true,
-    "summary": "Following the September 11 attacks, the United States invaded Afghanistan to destroy al-Qaeda and remove the Taliban regime from power.",
-    "countries": ["Afghanistan"]
-  },
-  {
     "title": "Allegations of US Involvement in the 2002 Coup Attempt in Venezuela",
     "years": "2002",
     "type": "Coup",
     "success": false,
     "summary": "President Chávez asserted that US officials knew about and approved plans for a coup attempt against him. While the US denied direct involvement and condemned the coup after it failed, there are allegations of prior knowledge and subtle encouragement.",
     "countries": ["Venezuela"]
-  },
-  {
-    "title": "US-Led Invasion of Iraq",
-    "years": "2003-2021",
-    "type": "Invasion / Occupation",
-    "success": true,
-    "summary": "The Iraq War began with a United States-led military coalition invading Iraq and overthrowing the government of Saddam Hussein.",
-    "countries": ["Iraq"]
   },
   {
     "title": "Allegations of US/French Orchestration of Coup in Haiti",
