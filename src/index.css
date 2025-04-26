@@ -29,6 +29,7 @@ body {
 .language-selector button {
   background: none;
   border: none;
+  font-family: "Noto Color Emoji", sans-serif; /* Apply emoji font */
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0 5px;
