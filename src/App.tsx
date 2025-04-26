@@ -4,6 +4,7 @@ import DeckGL from "@deck.gl/react";
 import { Feature, FeatureCollection } from "geojson";
 import { useEffect, useState } from "react";
 import data from "./data.json";
+import "./App.css";
 
 const infiltrationData = data as ICountryData[];
 
@@ -17,7 +18,6 @@ const INITIAL_VIEW_STATE = {
   bearing: 0,
 };
 
-/* ---------- types ---------- */
 type IEventType =
   | "Coup"
   | "Election Interference"
@@ -110,10 +110,10 @@ export default function USInfiltrationMap() {
           if (country) {
             tooltip.style.top = `${y}px`;
             tooltip.style.left = `${x}px`;
-            // Generate tooltip content from all events
+
             let tooltipContent = `<strong>${country.country}</strong>`;
             country.events.forEach((event: CountryEvent) => {
-              tooltipContent += `<br><hr>Years: ${event.years}<br>Type: ${
+              tooltipContent += `<hr>Years: ${event.years}<br>Type: ${
                 event.type
               }<br>Outcome: ${Outcome[event.outcome]}<br>Summary: ${
                 event.summary
@@ -122,10 +122,10 @@ export default function USInfiltrationMap() {
             tooltip.innerHTML = tooltipContent;
             tooltip.style.display = "block";
           } else {
-            tooltip.style.display = "none"; // Hide if no matching country data
+            tooltip.style.display = "none";
           }
         } else if (tooltip) {
-          tooltip.style.display = "none"; // Hide if no object or tooltip element
+          tooltip.style.display = "none";
         }
       },
     });
@@ -140,12 +140,7 @@ export default function USInfiltrationMap() {
       <div
         id="tooltip"
         style={{
-          position: "absolute",
-          // background: "white",
-          padding: "5px",
           display: "none",
-          pointerEvents: "none",
-          zIndex: 9,
         }}
       />
     </div>
