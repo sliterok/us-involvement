@@ -2,14 +2,10 @@ import { PickingInfo } from "@deck.gl/core";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import DeckGL from "@deck.gl/react";
 import { Feature, FeatureCollection } from "geojson";
-import { useEffect, useState } from "react";
-import "./App.css";
-import { greenRedMix, toYear } from "./helpers";
-import data from "./data.json";
-
-const events = (data as ICountryEvent[]).sort(
-  (a, b) => toYear(a.years) - toYear(b.years)
-);
+import { useEffect, useState, useRef } from "react";
+import { greenRedMix } from "./helpers";
+import { events } from "./events";
+import { ITooltipHandle, Tooltip } from "./Tooltip";
 
 const INITIAL_VIEW_STATE = {
   longitude: 0,
@@ -21,25 +17,9 @@ const INITIAL_VIEW_STATE = {
   bearing: 0,
 };
 
-type IEventType =
-  | "Coup"
-  | "Election Interference"
-  | "Invasion / Occupation"
-  | "Proxy-War / Armed Support"
-  | "Assassination"
-  | "Political Pressure / Sanctions";
-
-interface ICountryEvent {
-  years: string;
-  type: IEventType;
-  success: boolean;
-  summary: string;
-  title: string;
-  countries: string[];
-}
-
-export default function USInfiltrationMap() {
+export const InfiltrationMap = function InfiltrationMap() {
   const [geoJson, setGeoJson] = useState<FeatureCollection | null>(null);
+  const tooltipRef = useRef<ITooltipHandle>(null);
 
   useEffect(() => {
     fetch(
@@ -88,44 +68,22 @@ export default function USInfiltrationMap() {
         const tooltip = document.getElementById("tooltip");
 
         if (tooltip && countryName) {
-          const countryEvents = events.filter((c) =>
-            c.countries.includes(countryName)
-          );
-
-          if (countryEvents.length) {
-            tooltip.style.top = `${y}px`;
-            tooltip.style.left = `${x}px`;
-
-            let tooltipContent = `<strong>${countryName}</strong>`;
-            countryEvents.forEach((event: ICountryEvent) => {
-              tooltipContent += `<hr><strong>${event.title}</strong>${
-                event.success ? "✅" : "❌"
-              } ${event.years}, ${event.type}<br>${event.summary}`;
-            });
-            tooltip.innerHTML = tooltipContent;
-            tooltip.style.display = "block";
-          } else {
-            tooltip.style.display = "none";
-          }
-        } else if (tooltip) {
-          tooltip.style.display = "none";
+          tooltip.style.top = `${y}px`;
+          tooltip.style.left = `${x}px`;
         }
+
+        tooltipRef.current?.set(countryName);
       },
     });
 
   return (
-    <div style={{ position: "relative", height: "100lvh", width: "100lvw" }}>
+    <>
       <DeckGL
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
         layers={[layer]}
       />
-      <div
-        id="tooltip"
-        style={{
-          display: "none",
-        }}
-      />
-    </div>
+      <Tooltip ref={tooltipRef} />
+    </>
   );
-}
+};
