@@ -14,8 +14,10 @@
     "@deck.gl/layers": "^9.1.11",
     "@deck.gl/react": "^9.1.11",
     "deck.gl": "^9.1.11",
+    "i18next": "^25.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.5.1",
     "swr": "^2.3.3"
   },
   "devDependencies": {

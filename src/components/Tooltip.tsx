@@ -7,16 +7,17 @@ import {
   useRef,
   useCallback,
 } from "react";
+import { useTranslation } from "react-i18next";
 import "./Tooltip.css";
-import { IEventType } from "./types";
-import { useEvents } from "./hooks/fetchers";
+import { EventType } from "../types";
+import { useEvents } from "../hooks/fetchers";
 
 export interface ITooltipHandle {
   set(countryName?: string): void;
   move(x: number, y: number): void;
 }
 
-const eventTypeEmoji: Record<IEventType, string> = {
+const eventTypeEmoji: Record<EventType, string> = {
   Coup: "⚔️",
   "Election Interference": "🗳️⚠️",
   "Invasion / Occupation": "🪖",
@@ -27,6 +28,7 @@ const eventTypeEmoji: Record<IEventType, string> = {
 
 export const Tooltip = memo(
   forwardRef<ITooltipHandle>((_, ref) => {
+    const { t } = useTranslation();
     const [tooltipCountry, setTooltipCountry] = useState<string>();
     const tooltipRef = useRef<HTMLDivElement>(null);
     const { events } = useEvents();
@@ -70,7 +72,7 @@ export const Tooltip = memo(
                 {event.success ? "✅" : "❌"} {event.years}
               </div>
               <div>
-                {eventTypeEmoji[event.type]} {event.type}
+                {eventTypeEmoji[event.type]} {t(event.type)}
               </div>
             </div>
 

@@ -2,7 +2,7 @@
   {
     "title": "Overthrow of Nazi German or Imperial Japanese Puppet Regimes",
     "years": "1939-1945",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "During World War II, the U.S. helped overthrow many Nazi German or Imperial Japanese puppet regimes. Examples include regimes in the Philippines, Korea, East China, and parts of Europe.",
     "countries": ["Philippines", "South Korea", "China", "Germany", "Italy"]
@@ -10,7 +10,7 @@
   {
     "title": "Collapse of Adolf Hitler's Government",
     "years": "1939-1945",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "United States forces, together with the United Kingdom and Soviet Union, were also instrumental in collapsing Adolf Hitler's government in Germany.",
     "countries": ["Germany"]
@@ -18,7 +18,7 @@
   {
     "title": "Deposing Benito Mussolini",
     "years": "1939-1945",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "United States forces, together with the United Kingdom and Soviet Union, were also instrumental in deposing Benito Mussolini in Italy.",
     "countries": ["Italy"]
@@ -26,7 +26,7 @@
   {
     "title": "1953 Iranian coup d'état",
     "years": "1953",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "Significant operations during the Cold War included the United States and United Kingdom–planned 1953 Iranian coup d'état.",
     "countries": ["Iran"]
@@ -34,7 +34,7 @@
   {
     "title": "1961 Bay of Pigs Invasion targeting Cuba",
     "years": "1961",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": false,
     "summary": "Significant operations during the Cold War included the 1961 Bay of Pigs Invasion targeting Cuba.",
     "countries": ["Cuba"]
@@ -42,7 +42,7 @@
   {
     "title": "Support for the overthrow of Sukarno by General Suharto in Indonesia",
     "years": "1965-1967",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "Significant operations during the Cold War included support for the overthrow of Sukarno by General Suharto in Indonesia.",
     "countries": ["Indonesia"]
@@ -50,7 +50,7 @@
   {
     "title": "Interference in Italian national elections",
     "years": "1948",
-    "type": "Election Interference",
+    "type": "elint",
     "success": true,
     "summary": "The U.S. covertly supported anti‑communist parties and media to sway Italy’s 1948 general election.",
     "countries": ["Italy"]
@@ -58,7 +58,7 @@
   {
     "title": "Interference in the Philippines national elections",
     "years": "1953",
-    "type": "Election Interference",
+    "type": "elint",
     "success": true,
     "summary": "The U.S. funneled money and guidance to help Ramón Magsaysay win the 1953 Philippine presidential election.",
     "countries": ["Philippines"]
@@ -66,7 +66,7 @@
   {
     "title": "Interference in Japan's national elections",
     "years": "1950s and 1960s",
-    "type": "Election Interference",
+    "type": "elint",
     "success": true,
     "summary": "Throughout the 1950s‑60s the U.S. funded Japan’s Liberal Democratic Party and other assets to influence parliamentary elections.",
     "countries": ["Japan"]
@@ -74,7 +74,7 @@
   {
     "title": "Interference in Lebanon's national elections",
     "years": "1957",
-    "type": "Election Interference",
+    "type": "elint",
     "success": true,
     "summary": "The U.S. covertly financed pro‑Chamoun factions to tilt Lebanon’s 1957 parliamentary election.",
     "countries": ["Lebanon"]
@@ -82,7 +82,7 @@
   {
     "title": "Interference in Russia's national elections",
     "years": "1996",
-    "type": "Election Interference",
+    "type": "elint",
     "success": true,
     "summary": "U.S. advisers and funding assisted Boris Yeltsin’s 1996 presidential campaign during Russia’s post‑Soviet transition.",
     "countries": ["Russia"]
@@ -90,7 +90,7 @@
   {
     "title": "War in Afghanistan",
     "years": "2001-2021",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "Following the dissolution of the Soviet Union, the United States has led or supported wars to determine the governance of a number of countries. Stated U.S. aims in these conflicts have included fighting the War on terror, as in the Afghan War.",
     "countries": ["Afghanistan"]
@@ -98,7 +98,7 @@
   {
     "title": "Iraq War",
     "years": "2003-2021",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "Following the dissolution of the Soviet Union, the United States has led or supported wars to determine the governance of a number of countries. Stated U.S. aims in these conflicts have included removing supposed weapons of mass destruction (WMDs), as in the Iraq War.",
     "countries": ["Iraq"]
@@ -106,7 +106,7 @@
   {
     "title": "Annexation of Texas",
     "years": "1846-1848",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The United States annexed the Republic of Texas, at the time considered by Mexico to be a rebellious state of Mexico.",
     "countries": ["Mexico"]
@@ -114,7 +114,7 @@
   {
     "title": "Invasion of California",
     "years": "1846-1848",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "During the war with Mexico that ensued after the annexation of Texas, the United States seized Alta California from Mexico.",
     "countries": ["Mexico"]
@@ -122,7 +122,7 @@
   {
     "title": "Support for Liberal Forces in Mexico against Maximilian I",
     "years": "1865-1867",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "After the American Civil War ended, the United States began supporting the Liberal forces of Benito Juárez against the forces of Maximilian I, who was installed by France. The United States began sending and dropping arms into Mexico, and many Americans fought alongside Juárez, eventually leading to the execution of Maximilian I.",
     "countries": ["Mexico"]
@@ -130,7 +130,7 @@
   {
     "title": "Samoan Crisis / First Samoan Civil War",
     "years": "1887-1889",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": false,
     "summary": "The Samoan crisis was a confrontation between the United States, Germany, and the United Kingdom, with the powers backing rival claimants to the throne of the Samoan Islands.",
     "countries": ["Samoa"]
@@ -138,7 +138,7 @@
   {
     "title": "Overthrow of the Kingdom of Hawaii",
     "years": "1893",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "Anti-monarchs, mostly Americans, in Hawaii, engineered the overthrow of the Kingdom of Hawaii.",
     "countries": ["United States of America"]
@@ -146,7 +146,7 @@
   {
     "title": "Philippine–American War",
     "years": "1899-1902",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "Wishing to establish its own control over the Philippines after the defeat of Spain, the U.S. engaged in the Philippine–American War, leading to the dissolution of the First Philippine Republic.",
     "countries": ["Philippines"]
@@ -154,7 +154,7 @@
   {
     "title": "Support for Panamanian Independence from Colombia",
     "years": "1903",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "U.S. President Theodore Roosevelt privately supported the movement for Panamanian independence from Colombia, which led to Panama's independence.",
     "countries": ["Colombia", "Panama"]
@@ -162,7 +162,7 @@
   {
     "title": "U.S. Intervention in Honduras (supporting Manuel Bonilla's coup)",
     "years": "1903",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. staged invasions and incursions of US troops in Honduras in 1903, supporting a coup by Manuel Bonilla.",
     "countries": ["Honduras"]
@@ -170,7 +170,7 @@
   {
     "title": "U.S. Intervention in Honduras (supporting Bonilla against a Nicaraguan-backed coup)",
     "years": "1907",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. staged invasions and incursions of US troops in Honduras in 1907, supporting Bonilla against a Nicaraguan-backed coup.",
     "countries": ["Honduras", "Nicaragua"]
@@ -178,7 +178,7 @@
   {
     "title": "U.S. Intervention in Honduras (defending the regime of Miguel R. Davila)",
     "years": "1911-1912",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. staged invasions and incursions of US troops in Honduras in 1911 and 1912, defending the regime of Miguel R. Davila from an uprising.",
     "countries": ["Honduras"]
@@ -186,7 +186,7 @@
   {
     "title": "U.S. Intervention in Honduras (peacekeeping and installing Francisco Bográn)",
     "years": "1919",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. staged invasions and incursions of US troops in Honduras in 1919, peacekeeping during a civil war, and installing the caretaker government of Francisco Bográn.",
     "countries": ["Honduras"]
@@ -194,7 +194,7 @@
   {
     "title": "U.S. Intervention in Honduras (defending the Bográn regime)",
     "years": "1920",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. staged invasions and incursions of US troops in Honduras in 1920, defending the Bográn regime from a general strike.",
     "countries": ["Honduras"]
@@ -202,7 +202,7 @@
   {
     "title": "U.S. Intervention in Honduras (defending Rafael López Gutiérrez)",
     "years": "1924",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. staged invasions and incursions of US troops in Honduras in 1924, defending the regime of Rafael López Gutiérrez from an uprising.",
     "countries": ["Honduras"]
@@ -210,7 +210,7 @@
   {
     "title": "U.S. Intervention in Honduras (defending Miguel Paz Barahona)",
     "years": "1925",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. staged invasions and incursions of US troops in Honduras in 1925, defending the elected government of Miguel Paz Barahona.",
     "countries": ["Honduras"]
@@ -218,7 +218,7 @@
   {
     "title": "U.S. Invasion and Occupation of Cuba (First Occupation)",
     "years": "1898-1902",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The United States invaded and occupied Spanish-ruled Cuba in 1898 after the explosion of the USS Maine.",
     "countries": ["Cuba"]
@@ -226,7 +226,7 @@
   {
     "title": "U.S. Intervention and Occupation of Cuba (Second Occupation)",
     "years": "1906-1909",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "Due to tensions and the collapse of the government after President Tomás Estrada Palma resigned, the U.S. invoked the Platt Amendment and the 1903 treaty, invading and occupying Cuba again.",
     "countries": ["Cuba"]
@@ -234,7 +234,7 @@
   {
     "title": "U.S. Support for Revolt against José Santos Zelaya in Nicaragua",
     "years": "1909-1910",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "The United States supported the conservative forces led by Governor Juan José Estrada in a revolt against President José Santos Zelaya because the U.S. opposed Zelaya's plans for a canal with German or Japanese involvement. This led to Zelaya's resignation and Estrada becoming president under U.S. recognition.",
     "countries": ["Nicaragua"]
@@ -242,7 +242,7 @@
   {
     "title": "U.S. Occupation of Nicaragua (Taft and Wilson Administrations)",
     "years": "1912-1933",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": false,
     "summary": "The Taft administration sent troops into Nicaragua and occupied the country. The Wilson administration extended the stay, taking complete financial and governmental control. Despite attempts to withdraw, U.S. troops returned multiple times to support the government against rebels led by Augusto Cesar Sandino. The U.S. ultimately left the Somoza family in charge.",
     "countries": ["Nicaragua"]
@@ -250,7 +250,7 @@
   {
     "title": "U.S. Ambassador's Support for Coup against Francisco I. Madero in Mexico",
     "years": "1913",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "Henry Lane Wilson, U.S. ambassador to Mexico, actively supported the Ten Tragic Days coup which overthrew the democratically elected president, Francisco I. Madero.",
     "countries": ["Mexico"]
@@ -258,7 +258,7 @@
   {
     "title": "U.S. Occupation of Veracruz, Mexico",
     "years": "1914",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": false,
     "summary": "U.S. President Woodrow Wilson refused to recognize the Mexican government that seized power in the coup against Madero, leading to the United States occupation of Veracruz.",
     "countries": ["Mexico"]
@@ -266,7 +266,7 @@
   {
     "title": "U.S. Occupation of Haiti",
     "years": "1915-1934",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "U.S. marines occupied Haiti from 1915 to 1934, driven by the interests of U.S.-based banks. The U.S. installed a new government and dictated the terms of a new Haitian constitution.",
     "countries": ["Haiti"]
@@ -274,7 +274,7 @@
   {
     "title": "U.S. Occupation of the Dominican Republic",
     "years": "1916-1924",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "U.S. marines invaded and occupied the Dominican Republic from 1916 to 1924, following earlier military interventions. The US Navy controlled key positions in the government and the military.",
     "countries": ["Dominican Republic"]
@@ -282,7 +282,7 @@
   {
     "title": "U.S. Involvement in Regime Change in Germany (World War I)",
     "years": "1917-1919",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "The Wilson Administration made the abdication of the Kaiser and the creation of a German Republic a requirement of surrender in World War I.",
     "countries": ["Germany"]
@@ -290,7 +290,7 @@
   {
     "title": "U.S. Involvement in Regime Change in Austria-Hungary (World War I)",
     "years": "1917-1920",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "As part of World War I, the U.S. declared war on Austria-Hungary. The Treaty of Saint Germain effectively dissolved Austria-Hungary, leading to the formation of the Republic of Austria and the Kingdom of Hungary.",
     "countries": ["Austria", "Hungary"]
@@ -298,7 +298,7 @@
   {
     "title": "U.S. Intervention in the Russian Civil War",
     "years": "1918-1920",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": false,
     "summary": "In 1918, the U.S. military took part in the Allied intervention in the Russian Civil War to support the White movement and overthrow the Bolsheviks. Forces were withdrawn in 1920.",
     "countries": ["Russia"]
@@ -306,7 +306,7 @@
   {
     "title": "U.S. Occupation and Remaking of Japan",
     "years": "1941-1952",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "After the Allied victory in World War II, Japan was occupied by Allied forces under U.S. command. A new Constitution of Japan was ratified, and war criminals were tried.",
     "countries": ["Japan"]
@@ -314,7 +314,7 @@
   {
     "title": "U.S. Military Government and Civil Administration of the Ryukyu Islands (Okinawa)",
     "years": "1941-1972",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "Following the United States invasion of Okinawa, the U.S. installed the United States Military Government of the Ryukyu Islands, later replaced by the United States Civil Administration, which ruled until 1972.",
     "countries": ["Japan"]
@@ -322,7 +322,7 @@
   {
     "title": "U.S. Participation in the Allied Occupation and Denazification of Germany",
     "years": "1941-1949",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The US took part in the Allied occupation and Denazification of the Western portion of Germany, leading to the formation of the Federal Republic of Germany.",
     "countries": ["Germany"]
@@ -330,7 +330,7 @@
   {
     "title": "U.S. Participation in the Allied Invasion and Occupation of Italy",
     "years": "1941-1946",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The US participated in the Allied invasion of Sicily and the subsequent Italian Campaign, which led to the fall of Mussolini's fascist regime.",
     "countries": ["Italy"]
@@ -338,7 +338,7 @@
   {
     "title": "U.S. Participation in the Liberation of France",
     "years": "1944-1946",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "British, Canadian, and United States forces were critical participants in operations leading to a military breakout that ended the Nazi occupation of France.",
     "countries": ["France"]
@@ -346,7 +346,7 @@
   {
     "title": "U.S. Participation in the Liberation of Belgium",
     "years": "1944-1945",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "United States, Canadian, British, and other Allied forces ended the Nazi occupation of most of Belgium.",
     "countries": ["Belgium"]
@@ -354,7 +354,7 @@
   {
     "title": "U.S. Participation in the Liberation of the Netherlands",
     "years": "1944-1945",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "British, Canadian, and American forces liberated portions of the Netherlands, leading to the surrender of remaining German forces.",
     "countries": ["Netherlands"]
@@ -362,7 +362,7 @@
   {
     "title": "U.S. Landings and End of Japanese Occupation of the Philippines",
     "years": "1944-1945",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "United States landings in 1944 ended the Japanese occupation of the Philippines, leading to the restoration of the Commonwealth and eventual independence.",
     "countries": ["Philippines"]
@@ -370,7 +370,7 @@
   {
     "title": "Post-WWII Re-establishment of Austria",
     "years": "1945-1955",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "After the Allied victory, Austria was treated as a victim of Nazi aggression. The 1955 Austrian State Treaty, signed by the U.S., USSR, UK, and France, re-established Austria as a free, democratic, and sovereign state.",
     "countries": ["Austria"]
@@ -378,7 +378,7 @@
   {
     "title": "U.S. Occupation and Establishment of USAMGK in South Korea",
     "years": "1945-1948",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "After the surrender of Japan, the U.S. landed forces in Korea and established the United States Army Military Government in Korea (USAMGK) to govern Korea south of the 38th parallel, outlawing the People's Republic of Korea.",
     "countries": ["South Korea"]
@@ -386,7 +386,7 @@
   {
     "title": "U.S. Backing of Syngman Rhee in South Korea",
     "years": "1948",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "Syngman Rhee, who had previously lived in the United States, won the 1948 South Korean presidential election and, backed by the U.S. government, set up authoritarian rule.",
     "countries": ["South Korea"]
@@ -394,7 +394,7 @@
   {
     "title": "U.S. Support in the Greek Civil War",
     "years": "1947-1949",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "The U.S. flooded Greece with military equipment, advisers, and weapons to support the government forces against the communist Democratic Army of Greece, eventually restoring the Kingdom of Greece.",
     "countries": ["Greece"]
@@ -402,7 +402,7 @@
   {
     "title": "U.S. Support in the Costa Rican Civil War",
     "years": "1948",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "The US supported the opposition in the short-lived Costa Rican Civil War of 1948, which ended Calderón's government and led to the de facto rule of José Figueres Ferrer.",
     "countries": ["Costa Rica"]
@@ -410,7 +410,7 @@
   {
     "title": "Failed U.S./U.K. Covert Operations in Albania",
     "years": "1949-1953",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "The United States and United Kingdom recruited and trained anti-communist Albanians to infiltrate the country in an attempt to destabilize the communist regime, but the operation was discovered and failed.",
     "countries": ["Albania"]
@@ -418,7 +418,7 @@
   {
     "title": "Possible U.S. Involvement in Syrian Coup",
     "years": "1949",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "The government of Shukri al-Quwatli was overthrown by a junta led by Husni al-Za'im, who had connections to CIA operatives and promptly approved an American oil pipeline. The exact nature of U.S. involvement remains controversial.",
     "countries": ["Syria"]
@@ -426,7 +426,7 @@
   {
     "title": "CIA Support for Kuomintang Incursions into China from Burma (Operation Paper)",
     "years": "1950-1953",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "The CIA assisted Kuomintang incursions into Western China from Burma, providing weapons and supplies, in hopes of retaking China. However, each invasion was repelled.",
     "countries": ["China", "Myanmar"]
@@ -434,7 +434,7 @@
   {
     "title": "Possible U.S. Role in Egyptian Coup",
     "years": "1952",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "CIA officer Kermit Roosevelt Jr. met with Farouk I of Egypt. The U.S. was notified in advance of the successful July coup by the Free Officers that replaced the Egyptian monarchy. There are conflicting accounts regarding the extent of direct CIA coordination.",
     "countries": ["Egypt"]
@@ -442,7 +442,7 @@
   {
     "title": "Aborted Operation PBFortune against Jacobo Árbenz in Guatemala",
     "years": "1952",
-    "type": "Coup",
+    "type": "coup",
     "success": false,
     "summary": "Operation PBFortune was a planned CIA operation to overthrow Guatemalan President Jacobo Árbenz, involving providing weapons to an exiled military officer for an invasion from Nicaragua. The operation was aborted.",
     "countries": ["Guatemala"]
@@ -450,7 +450,7 @@
   {
     "title": "CIA Support in the 1952 Iranian Legislative Election",
     "years": "1952",
-    "type": "Election Interference",
+    "type": "elint",
     "success": false,
     "summary": "The CIA began supporting 18 candidates in the 1952 Iranian legislative election, which was suspended by Mosaddegh.",
     "countries": ["Iran"]
@@ -458,7 +458,7 @@
   {
     "title": "Operation PBSuccess: Overthrow of Jacobo Árbenz in Guatemala",
     "years": "1954",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "In a CIA operation code-named Operation PBSuccess, the U.S. government executed a coup that successfully overthrew the democratically elected government of President Jacobo Árbenz.",
     "countries": ["Guatemala"]
@@ -466,7 +466,7 @@
   {
     "title": "Failed Operation Straggle against Sabri al-Asali in Syria",
     "years": "1956",
-    "type": "Coup",
+    "type": "coup",
     "success": false,
     "summary": "Operation Straggle was a failed CIA coup plot against Nasserist civilian politician Sabri al-Asali in Syria.",
     "countries": ["Syria"]
@@ -474,7 +474,7 @@
   {
     "title": "Failed Operation Wappen against Syria",
     "years": "1957",
-    "type": "Coup",
+    "type": "coup",
     "success": false,
     "summary": "Operation Wappen was a second CIA coup plan against Syria involving assassination, staged military incidents, propaganda, and sabotage. It failed when Syrian military officers revealed the plot.",
     "countries": ["Syria"]
@@ -482,7 +482,7 @@
   {
     "title": "Failed CIA/MI6 \"The Preferred Plan\" against Syria",
     "years": "1957",
-    "type": "Coup",
+    "type": "coup",
     "success": false,
     "summary": "Alongside Britain's MI6, the CIA planned to support and arm several uprisings in Syria, but this plan was never carried out.",
     "countries": ["Syria"]
@@ -490,7 +490,7 @@
   {
     "title": "CIA Support for Permesta Rebellion in Indonesia",
     "years": "1957-1959",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "Starting in 1957, the CIA supported the failed Permesta Rebellion by rebel Indonesian military officers, including bombing civilian and military targets using CIA front organization planes.",
     "countries": ["Indonesia"]
@@ -498,7 +498,7 @@
   {
     "title": "US Considerations for Regime Change in Iraq and Alignment with Egypt",
     "years": "1959",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": false,
     "summary": "Concerned about communist influence in Iraq, the US National Security Council proposed contingencies for preventing a communist takeover and considered supporting Nasser to take over Iraq.",
     "countries": ["Iraq"]
@@ -506,7 +506,7 @@
   {
     "title": "Possible US/Egyptian Intelligence Involvement in Assassination Attempt on Qasim",
     "years": "1959",
-    "type": "Assassination",
+    "type": "assass",
     "success": false,
     "summary": "There are reports and disputes about whether the unsuccessful assassination attempt on Iraqi leader Qasim, involving a young Saddam Hussein, was a collaboration between the CIA and Egyptian intelligence.",
     "countries": ["Iraq"]
@@ -514,7 +514,7 @@
   {
     "title": "US Support for South Vietnam against Communist Insurgency",
     "years": "1959-1963",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "The US supported the Republic of Vietnam against the communist insurgency that began in 1959, increasing involvement after the 1960 US election.",
     "countries": ["Vietnam"]
@@ -522,7 +522,7 @@
   {
     "title": "Operation MONGOOSE against Cuba",
     "years": "1959-1962",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": false,
     "summary": "Operation MONGOOSE was a year-long U.S. government effort to overthrow the government of Cuba through embargo, diplomatic isolation, psychological operations, sabotage, and assassination attempts against Fidel and Raúl Castro.",
     "countries": ["Cuba"]
@@ -530,7 +530,7 @@
   {
     "title": "US Involvement in Failed Coup Attempt against Norodom Sihanouk in Cambodia",
     "years": "1959",
-    "type": "Coup",
+    "type": "coup",
     "success": false,
     "summary": "Ngo Dinh Nhu of South Vietnam broached the idea of a coup against Cambodian leader Norodom Sihanouk and contacted Dap Chhuon, who received covert support from Thailand, South Vietnam, and the CIA. The plot was discovered and failed.",
     "countries": ["Cambodia"]
@@ -538,7 +538,7 @@
   {
     "title": "CIA Plot to Assassinate Patrice Lumumba in Congo",
     "years": "1960-1961",
-    "type": "Assassination",
+    "type": "assass",
     "success": false,
     "summary": "The CIA sent poison to assassinate Patrice Lumumba, the first Prime Minister of the Republic of the Congo, due to US concerns about his leaning towards the Soviet Union. However, Lumumba went into hiding before the plot was completed.",
     "countries": ["Democratic Republic of the Congo"]
@@ -546,7 +546,7 @@
   {
     "title": "US Funding for Mobutu Sese Seko in Congo",
     "years": "1961-1965",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "After Lumumba's death, the US began funding Mobutu Sese Seko in Congo to secure him against separatists and opposition.",
     "countries": ["Democratic Republic of the Congo"]
@@ -554,7 +554,7 @@
   {
     "title": "US Support for Counter-Coup in Laos",
     "years": "1960",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "With CIA support, Thailand set up a covert advisory group and backed a counter-coup against the neutralist government in Vientiane, which successfully captured the city.",
     "countries": ["Laos"]
@@ -562,7 +562,7 @@
   {
     "title": "US Involvement in the Assassination of Rafael Trujillo in the Dominican Republic",
     "years": "1961",
-    "type": "Assassination",
+    "type": "assass",
     "success": true,
     "summary": "The ruler of the Dominican Republic, Rafael Trujillo, was killed with weapons supplied by the United States Central Intelligence Agency (CIA).",
     "countries": ["Dominican Republic"]
@@ -570,7 +570,7 @@
   {
     "title": "Deposition of Juan Bosch in the Dominican Republic",
     "years": "1963",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "Juan Bosch, an earlier recipient of CIA funding, was elected president of the Dominican Republic in 1962 and was deposed in a coup in 1963.",
     "countries": ["Dominican Republic"]
@@ -578,7 +578,7 @@
   {
     "title": "US Support for 1963 Ba'ath Party Coup in Iraq",
     "years": "1963",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "There are strong suspicions and varying levels of evidence suggesting that the Ba'ath Party collaborated with the CIA in planning and carrying out its violent coup that overthrew Iraq's leader, Brigadier Abd al-Karim Qasim.",
     "countries": ["Iraq"]
@@ -586,7 +586,7 @@
   {
     "title": "CIA Campaign against Cheddi Jagan in British Guiana (Guyana)",
     "years": "1963-1964",
-    "type": "Election Interference",
+    "type": "elint",
     "success": true,
     "summary": "The CIA conducted a covert political campaign against left-wing Prime Minister Cheddi Jagan due to fear of the spread of the Cuban Revolution, supporting strikes and funding rival political parties, leading to his removal.",
     "countries": ["Guyana"]
@@ -594,7 +594,7 @@
   {
     "title": "US Support for the 1963 Coup in South Vietnam against Ngo Dinh Diem",
     "years": "1963",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "The Kennedy administration became increasingly frustrated with South Vietnamese President Ngo Dinh Diem's rule and, after debating support for his replacement, gave assurances to discontented ARVN officers that the US would not oppose a coup, leading to Diem's assassination.",
     "countries": ["Vietnam"]
@@ -602,7 +602,7 @@
   {
     "title": "US Support for the 1964 Coup in Brazil",
     "years": "1964",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "The United States, worried about President João Goulart's socialist sympathies, supported a military coup d'état that overthrew him and installed a right-wing military dictatorship (Operation Brother Sam).",
     "countries": ["Brazil"]
@@ -610,7 +610,7 @@
   {
     "title": "US Support for the Brazilian Military Dictatorship (Operation Condor)",
     "years": "1964-1985",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "The United States continued to support the Brazilian military dictatorship that came to power in 1964 through Operation Condor.",
     "countries": ["Brazil"]
@@ -618,7 +618,7 @@
   {
     "title": "Possible US Involvement in the 1970 Coup against Norodom Sihanouk in Cambodia",
     "years": "1970",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "Prince Norodom Sihanouk was deposed by right-wing General Lon Nol. Historians are divided about the extent of U.S. involvement or foreknowledge, but there is evidence of Lon Nol seeking U.S. consent and support for action against Sihanouk.",
     "countries": ["Cambodia"]
@@ -626,7 +626,7 @@
   {
     "title": "US Support for the 1971 Coup in Bolivia",
     "years": "1971",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "The U.S. government supported the 1971 coup led by General Hugo Banzer that toppled President Juan José Torres of Bolivia.",
     "countries": ["Bolivia"]
@@ -634,7 +634,7 @@
   {
     "title": "US Efforts to Prevent Salvador Allende's Victory and Unseat Him in Chile",
     "years": "1963-1973",
-    "type": "Election Interference",
+    "type": "elint",
     "success": false,
     "summary": "The U.S. government ran a psy ops action and funded opposition to prevent Salvador Allende and the Socialist Party of Chile from winning the presidency. After his election, the U.S. pursued economic warfare to destabilize his government.",
     "countries": ["Chile"]
@@ -642,7 +642,7 @@
   {
     "title": "CIA Involvement in the 1973 Coup in Chile",
     "years": "1973",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "President Allende was overthrown by the Chilean Armed Forces. The CIA, through Project FUBELT, worked secretly to prepare the conditions for the coup.",
     "countries": ["Chile"]
@@ -650,7 +650,7 @@
   {
     "title": "US Support for Rebel Groups against the Derg in Ethiopia",
     "years": "1974-1991",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "After Emperor Haile Selassie I was overthrown by the Marxist-Leninist Derg, the U.S. supported numerous rebel groups that rose up against the Derg, eventually leading to its downfall.",
     "countries": ["Ethiopia"]
@@ -658,7 +658,7 @@
   {
     "title": "US Covert Support to UNITA and FNLA in Angola (Operation IA Feature)",
     "years": "1975-1985",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "The United States covertly supported the UNITA and FNLA rebel groups in Angola against the leftist MPLA, initially during the war for independence and continuing into the civil war. This support faced congressional opposition and restrictions.",
     "countries": ["Angola"]
@@ -666,7 +666,7 @@
   {
     "title": "US Support for UNITA in Angola under the Reagan Doctrine",
     "years": "1986-1991",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "Under the Reagan Doctrine, the US increased support to the anti-Communist UNITA forces in Angola, including the provision of Stinger missiles, in an effort to roll back Soviet influence.",
     "countries": ["Angola"]
@@ -674,7 +674,7 @@
   {
     "title": "US Support for Indonesian Invasion and Occupation of East Timor",
     "years": "1975-1999",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "The US, under President Ford and Secretary of State Kissinger, gave tacit approval to Indonesia's invasion of East Timor and continued to provide military aid during the occupation.",
     "countries": ["East Timor"]
@@ -682,7 +682,7 @@
   {
     "title": "US Endorsement and Support of the 1976 Argentine Coup",
     "years": "1976",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "The Argentine Armed Forces overthrew President Isabel Perón in a coup, starting a military dictatorship. Both the coup and the following authoritarian regime were endorsed and supported by the U.S. government.",
     "countries": ["Argentina"]
@@ -690,7 +690,7 @@
   {
     "title": "US Support for the Afghan Mujahideen (Operation Cyclone)",
     "years": "1979-1992",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "The U.S. government provided weapons and funding to the Afghan mujahideen fighting to overthrow the Soviet-backed government of the Democratic Republic of Afghanistan.",
     "countries": ["Afghanistan"]
@@ -698,7 +698,7 @@
   {
     "title": "US Support for Solidarity in Poland (Operation QRHELPFUL)",
     "years": "1980-1989",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "The Reagan administration supported the Solidarity trade union in Poland against the communist government through a public relations campaign and the provision of money and non-lethal aid.",
     "countries": ["Poland"]
@@ -706,7 +706,7 @@
   {
     "title": "US Covert Support for Hissène Habré in Chad",
     "years": "1981-1982",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "The Reagan administration gave covert support through the CIA to Hissène Habré when he returned to Chad to fight against Goukouni Oueddei, leading to Habre becoming president.",
     "countries": ["Chad"]
@@ -714,7 +714,7 @@
   {
     "title": "US Support for Hissène Habré's Government in Chad",
     "years": "1982-1990",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "The CIA continued to support Habre after he took power, including training and equipping his secret police and supporting Chad in its war against Libya.",
     "countries": ["Chad", "Libya"]
@@ -722,7 +722,7 @@
   {
     "title": "US Support for the Contras in Nicaragua",
     "years": "1981-1990",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "The U.S. government armed, trained, and funded the Contras, a rebel group based in Honduras, in an attempt to overthrow the Sandinista government of Nicaragua.",
     "countries": ["Nicaragua"]
@@ -730,7 +730,7 @@
   {
     "title": "US Invasion of Grenada (Operation Urgent Fury)",
     "years": "1983",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. military and a coalition of Caribbean nations invaded Grenada and overthrew the Marxist government of Hudson Austin.",
     "countries": ["Grenada"]
@@ -738,7 +738,7 @@
   {
     "title": "US Invasion of Panama (Operation Just Cause)",
     "years": "1989-1990",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "The U.S. invaded Panama to remove dictator Manuel Noriega from power, leading to the installation of President-elect Guillermo Endara.",
     "countries": ["Panama"]
@@ -746,7 +746,7 @@
   {
     "title": "US Support for Anti-Government Groups in the Soviet Union",
     "years": "1984-1991",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "The National Endowment for Democracy (NED) funded émigré journals and supported nationalist and democratic aspirations among minorities in the Soviet Union, contributing to its decentralization.",
     "countries": [
@@ -761,7 +761,7 @@
   {
     "title": "NED Support for Boris Yeltsin and Democratic Candidates in Russia",
     "years": "1990-1991",
-    "type": "Election Interference",
+    "type": "elint",
     "success": true,
     "summary": "Prior to the 1990 Russian parliamentary elections, NED funded initiatives to assist Boris Yeltsin and democratic candidates, providing training and resources.",
     "countries": ["Russia"]
@@ -769,7 +769,7 @@
   {
     "title": "NED Support for Ukrainian Independence Movement",
     "years": "1990-1991",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "NED supported Ukrainian-American organizations that channeled aid to the Ukrainian independence movement, contributing to Ukraine's eventual independence.",
     "countries": ["Ukraine"]
@@ -777,7 +777,7 @@
   {
     "title": "US Encouragement of Uprising against Saddam Hussein in Iraq",
     "years": "1991",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": false,
     "summary": "During and immediately following the Gulf War, the United States broadcast signals encouraging an uprising against Saddam Hussein, but did not provide direct military support to the rebels.",
     "countries": ["Iraq"]
@@ -785,7 +785,7 @@
   {
     "title": "Alleged US Involvement in the Deposition of Jean-Bertrand Aristide in Haiti",
     "years": "1991",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "President Jean-Bertrand Aristide was deposed by the Haitian Armed Forces. There are allegations that the CIA paid key members of the coup regime, although the CIA denied involvement.",
     "countries": ["Haiti"]
@@ -793,7 +793,7 @@
   {
     "title": "CIA's Operation DBACHILLES against Saddam Hussein in Iraq",
     "years": "1992-1996",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "The CIA launched a coup d'état operation against the Iraqi government, recruiting Ayad Allawi and directing a sabotage and bombing campaign in Baghdad.",
     "countries": ["Iraq"]
@@ -801,7 +801,7 @@
   {
     "title": "US-Led Intervention to Reinstate Jean-Bertrand Aristide in Haiti",
     "years": "1994-1995",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "After a military junta took over Haiti, the U.S., with UN authorization, led an invasion (Operation Uphold Democracy) to restore President Jean-Bertrand Aristide to power.",
     "countries": ["Haiti"]
@@ -809,7 +809,7 @@
   {
     "title": "US Covert Support for Rwanda during the Congo War",
     "years": "1996-1997",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": true,
     "summary": "The United States covertly supported Rwanda before and during the Congo war, believing it was time for a \"new generation of African leaders\", which contributed to the ousting of Mobutu Sese Seko.",
     "countries": ["Democratic Republic of the Congo"]
@@ -817,7 +817,7 @@
   {
     "title": "US Support for Opposition in Yugoslavia and Overthrow of Milošević",
     "years": "2000",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "The U.S. State Department and CIA actively supported opposition groups in Yugoslavia leading up to the 2000 elections, contributing to the defeat of Milošević and the subsequent Bulldozer Revolution.",
     "countries": ["Republic of Serbia"]
@@ -825,7 +825,7 @@
   {
     "title": "Allegations of US Involvement in the 2002 Coup Attempt in Venezuela",
     "years": "2002",
-    "type": "Coup",
+    "type": "coup",
     "success": false,
     "summary": "President Chávez asserted that US officials knew about and approved plans for a coup attempt against him. While the US denied direct involvement and condemned the coup after it failed, there are allegations of prior knowledge and subtle encouragement.",
     "countries": ["Venezuela"]
@@ -833,7 +833,7 @@
   {
     "title": "Allegations of US/French Orchestration of Coup in Haiti",
     "years": "2004",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "Democratically elected President of Haiti Jean-Bertrand Aristide was forced to resign amid a rebel siege. Aristide and other officials alleged that the coup was effectively orchestrated by France and the United States.",
     "countries": ["Haiti"]
@@ -841,7 +841,7 @@
   {
     "title": "US Support for Opposition Protesters in Kyrgyzstan",
     "years": "2005",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": true,
     "summary": "In response to corruption and authoritarianism, mass protests ousted the government in Kyrgyzstan. The US government provided aid to opposition protesters and media outlets.",
     "countries": ["Kyrgyzstan"]
@@ -849,7 +849,7 @@
   {
     "title": "US Efforts to Topple Hamas Government in Palestine",
     "years": "2006-2007",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "The US government pressured the Fatah faction to topple the Hamas government that won the 2006 elections and provided funding and a secret training program. This led to conflict, and ultimately Hamas was prevented from ruling all Palestinian territories.",
     "countries": ["Palestine"]
@@ -857,7 +857,7 @@
   {
     "title": "Alleged US Funding of Syrian Opposition Groups",
     "years": "2005-2009",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": false,
     "summary": "After freezing relations with Syria, the US State Department allegedly began to funnel money to opposition groups, although this was denied by some of the recipients.",
     "countries": ["Syria"]
@@ -865,7 +865,7 @@
   {
     "title": "NATO-led Intervention in Libya",
     "years": "2011",
-    "type": "Invasion / Occupation",
+    "type": "inv",
     "success": true,
     "summary": "Amid the Arab Spring, a revolution broke out against Gaddafi in Libya. A NATO-led military intervention, with significant participation from the US, led to the collapse of Gaddafi's government.",
     "countries": ["Libya"]
@@ -873,7 +873,7 @@
   {
     "title": "US Support for Syrian Rebels",
     "years": "2012-2017",
-    "type": "Proxy-War / Armed Support",
+    "type": "proxy",
     "success": false,
     "summary": "After the outbreak of the Syrian civil war, the U.S. called for Assad to step aside and provided training, weapons, and money to vetted moderate Syrian rebels.",
     "countries": ["Syria"]
@@ -881,7 +881,7 @@
   {
     "title": "Allegations of US Support for Coup in Bolivia",
     "years": "2019",
-    "type": "Coup",
+    "type": "coup",
     "success": true,
     "summary": "Following a coup that ousted President Evo Morales, the U.S. faced allegations that it had supported his removal.",
     "countries": ["Bolivia"]
@@ -889,7 +889,7 @@
   {
     "title": "US Efforts to Remove Nicolás Maduro in Venezuela",
     "years": "2019-2022",
-    "type": "Political Pressure / Sanctions",
+    "type": "sanct",
     "success": false,
     "summary": "The Trump administration attempted to remove President Nicolás Maduro from office through diplomatic, economic, and legal pressure, recognizing Juan Guaidó as interim president. These efforts ultimately failed.",
     "countries": ["Venezuela"]

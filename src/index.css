@@ -14,3 +14,48 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
+/* Language Selector Styles */
+.language-selector {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1; /* Ensure it's above the map */
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.language-selector button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 5px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.language-selector button:hover {
+  opacity: 1;
+}
+
+.language-selector button.active {
+  opacity: 1;
+  transform: scale(1.1); /* Slightly larger when active */
+}
+
+/* Error Message Styles */
+.error-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  z-index: 20; /* Ensure it's above loader and map */
+}

@@ -2,10 +2,12 @@ import { PickingInfo } from "@deck.gl/core";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import DeckGL from "@deck.gl/react";
 import { Feature } from "geojson";
-import { useRef } from "react";
-import { greenRedMix } from "./helpers";
+import { useEffect, useRef, useState } from "react";
+import i18n from "../i18n";
+import { greenRedMix } from "../helpers";
 import { ITooltipHandle, Tooltip } from "./Tooltip";
-import { useEvents, useGeoJson } from "./hooks/fetchers";
+import { useEvents, useGeoJson, useTranslations } from "../hooks/fetchers";
+import Loader from "./Loader";
 
 const INITIAL_VIEW_STATE = {
   longitude: 0,
@@ -19,12 +21,47 @@ const INITIAL_VIEW_STATE = {
 
 export default function InfiltrationMap() {
   const tooltipRef = useRef<ITooltipHandle>(null);
-
+  const [language, setLanguageState] = useState<string>(i18n.language);
   const { geoJson, isLoadingGeoJson, errorGeoJson } = useGeoJson();
   const { events, isLoadingEvents, errorEvents } = useEvents();
+  const { translations, isLoadingTranslations } = useTranslations();
 
-  if (isLoadingGeoJson || isLoadingEvents) return <div>loading...</div>;
-  if (!events || !geoJson) return <div>error loading events or geojson</div>;
+  useEffect(() => {
+    if (translations) {
+      i18n.addResourceBundle(language, "translation", translations, true, true);
+
+      if (i18n.language !== language) {
+        i18n.changeLanguage(language);
+      }
+    }
+  }, [language, translations]);
+
+  const changeLanguage = (lang: string) => {
+    setLanguageState(lang);
+    i18n.changeLanguage(lang);
+  };
+
+  if (isLoadingGeoJson || isLoadingEvents || isLoadingTranslations)
+    return <Loader />;
+
+  if (errorGeoJson)
+    return (
+      <div className="error-message">
+        Error loading geographical data: {errorGeoJson.message}
+      </div>
+    );
+  if (errorEvents)
+    return (
+      <div className="error-message">
+        Error loading events data: {errorEvents.message}
+      </div>
+    );
+  if (!events || !geoJson)
+    return (
+      <div className="error-message">
+        Error: Missing required map data. Please try refreshing.
+      </div>
+    );
 
   const layer =
     geoJson &&
@@ -70,6 +107,22 @@ export default function InfiltrationMap() {
 
   return (
     <>
+      <div className="language-selector">
+        <button
+          onClick={() => changeLanguage("en")}
+          className={language === "en" ? "active" : ""}
+          aria-label="Switch to English"
+        >
+          🇺🇸
+        </button>
+        <button
+          onClick={() => changeLanguage("ru")}
+          className={language === "ru" ? "active" : ""}
+          aria-label="Switch to Russian"
+        >
+          🇷🇺
+        </button>
+      </div>
       <DeckGL
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
