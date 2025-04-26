@@ -110,7 +110,7 @@ export default function InfiltrationMap() {
 
   return (
     <>
-      <div className="language-selector">
+      <div className="language-selector emoji">
         <button
           onClick={() => changeLanguage("en")}
           className={language === "en" ? "active" : ""}

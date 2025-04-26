@@ -1,11 +1,4 @@
-export enum EventType {
-  "Coup" = "Coup",
-  "Election Interference" = "Election Interference",
-  "Invasion / Occupation" = "Invasion / Occupation",
-  "Proxy-War / Armed Support" = "Proxy-War / Armed Support",
-  "Assassination" = "Assassination",
-  "Political Pressure / Sanctions" = "Political Pressure / Sanctions",
-}
+import { EventType } from "./eventType";
 
 export interface ICountryEvent {
   years: string;

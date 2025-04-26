@@ -15,6 +15,11 @@ body {
   overflow: hidden;
 }
 
+.emoji,
+.emoji > * {
+  font-family: "Noto Color Emoji", sans-serif;
+}
+
 /* Language Selector Styles */
 .language-selector {
   position: absolute;
@@ -29,7 +34,6 @@ body {
 .language-selector button {
   background: none;
   border: none;
-  font-family: "Noto Color Emoji", sans-serif;
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0 5px;
