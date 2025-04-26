@@ -25,8 +25,3 @@ function hsvToRgb(h: number, s: number, v: number) {
     b: Math.round((b1 + m) * 255),
   };
 }
-
-export function toYear(s: string) {
-  const n = Number.parseInt(s, 10);
-  return Number.isNaN(n) ? Number.MAX_SAFE_INTEGER : n;
-}

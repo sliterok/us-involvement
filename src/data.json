@@ -1,29 +1,7 @@
 [
   {
-    "title": "Actions for Regime Change in Latin America and the Southwest Pacific",
-    "years": "19th century",
-    "type": "Invasion / Occupation",
-    "success": true,
-    "summary": "In the latter half of the 19th century, the U.S. government initiated actions for regime change mainly in Latin America and the southwest Pacific, including the Spanish–American and Philippine–American wars.",
-    "countries": ["Cuba", "Philippines"]
-  },
-  {
-    "title": "Shaping or Installing Governments",
-    "years": "early 20th century",
-    "type": "Political Pressure / Sanctions",
-    "success": true,
-    "summary": "At the onset of the 20th century, the United States shaped or installed governments in many countries around the world, including neighbors Hawaii, Panama, Nicaragua, Mexico, Haiti, and the Dominican Republic.",
-    "countries": [
-      "Panama",
-      "Nicaragua",
-      "Mexico",
-      "Haiti",
-      "Dominican Republic"
-    ]
-  },
-  {
     "title": "Overthrow of Nazi German or Imperial Japanese Puppet Regimes",
-    "years": "World War II",
+    "years": "1939-1945",
     "type": "Invasion / Occupation",
     "success": true,
     "summary": "During World War II, the U.S. helped overthrow many Nazi German or Imperial Japanese puppet regimes. Examples include regimes in the Philippines, Korea, East China, and parts of Europe.",
@@ -31,7 +9,7 @@
   },
   {
     "title": "Collapse of Adolf Hitler's Government",
-    "years": "World War II",
+    "years": "1939-1945",
     "type": "Invasion / Occupation",
     "success": true,
     "summary": "United States forces, together with the United Kingdom and Soviet Union, were also instrumental in collapsing Adolf Hitler's government in Germany.",
@@ -39,7 +17,7 @@
   },
   {
     "title": "Deposing Benito Mussolini",
-    "years": "World War II",
+    "years": "1939-1945",
     "type": "Invasion / Occupation",
     "success": true,
     "summary": "United States forces, together with the United Kingdom and Soviet Union, were also instrumental in deposing Benito Mussolini in Italy.",
@@ -74,7 +52,7 @@
     "years": "1948",
     "type": "Election Interference",
     "success": true,
-    "summary": "In addition, the U.S. has interfered in the national elections of countries, including Italy in 1948.",
+    "summary": "The U.S. covertly supported anti‑communist parties and media to sway Italy’s 1948 general election.",
     "countries": ["Italy"]
   },
   {
@@ -82,7 +60,7 @@
     "years": "1953",
     "type": "Election Interference",
     "success": true,
-    "summary": "In addition, the U.S. has interfered in the national elections of countries, including the Philippines in 1953.",
+    "summary": "The U.S. funneled money and guidance to help Ramón Magsaysay win the 1953 Philippine presidential election.",
     "countries": ["Philippines"]
   },
   {
@@ -90,7 +68,7 @@
     "years": "1950s and 1960s",
     "type": "Election Interference",
     "success": true,
-    "summary": "In addition, the U.S. has interfered in the national elections of countries, including Japan in the 1950s and 1960s.",
+    "summary": "Throughout the 1950s‑60s the U.S. funded Japan’s Liberal Democratic Party and other assets to influence parliamentary elections.",
     "countries": ["Japan"]
   },
   {
@@ -98,7 +76,7 @@
     "years": "1957",
     "type": "Election Interference",
     "success": true,
-    "summary": "In addition, the U.S. has interfered in the national elections of countries, including Lebanon in 1957.",
+    "summary": "The U.S. covertly financed pro‑Chamoun factions to tilt Lebanon’s 1957 parliamentary election.",
     "countries": ["Lebanon"]
   },
   {
@@ -106,7 +84,7 @@
     "years": "1996",
     "type": "Election Interference",
     "success": true,
-    "summary": "In addition, the U.S. has interfered in the national elections of countries, including Russia in 1996.",
+    "summary": "U.S. advisers and funding assisted Boris Yeltsin’s 1996 presidential campaign during Russia’s post‑Soviet transition.",
     "countries": ["Russia"]
   },
   {

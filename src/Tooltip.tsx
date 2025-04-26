@@ -9,11 +9,21 @@ import {
 } from "react";
 import { events } from "./events";
 import "./Tooltip.css";
+import { IEventType } from "./types";
 
 export interface ITooltipHandle {
   set(countryName?: string): void;
   move(x: number, y: number): void;
 }
+
+const eventTypeEmoji: Record<IEventType, string> = {
+  Coup: "⚔️",
+  "Election Interference": "🗳️⚠️",
+  "Invasion / Occupation": "🪖",
+  "Proxy-War / Armed Support": "🤝🪖",
+  Assassination: "🗡️",
+  "Political Pressure / Sanctions": "💰🚫",
+} as const;
 
 export const Tooltip = memo(
   forwardRef<ITooltipHandle>((_, ref) => {
@@ -54,8 +64,15 @@ export const Tooltip = memo(
           <div key={i}>
             <hr />
             <strong>{event.title}</strong>
-            {event.success ? "✅" : "❌"} {event.years} {event.type}
-            <br />
+            <div className="event-info">
+              <div>
+                {event.success ? "✅" : "❌"} {event.years}
+              </div>
+              <div>
+                {eventTypeEmoji[event.type]} {event.type}
+              </div>
+            </div>
+
             {event.summary}
           </div>
         ))}
