@@ -3,10 +3,13 @@ import { GeoJsonLayer } from "@deck.gl/layers";
 import DeckGL from "@deck.gl/react";
 import { Feature, FeatureCollection } from "geojson";
 import { useEffect, useState } from "react";
-import data from "./data.json";
 import "./App.css";
+import { greenRedMix, toYear } from "./helpers";
+import data from "./data.json";
 
-const infiltrationData = data as ICountryData[];
+const events = (data as ICountryEvent[]).sort(
+  (a, b) => toYear(a.years) - toYear(b.years)
+);
 
 const INITIAL_VIEW_STATE = {
   longitude: 0,
@@ -26,22 +29,14 @@ type IEventType =
   | "Assassination"
   | "Political Pressure / Sanctions";
 
-interface CountryEvent {
+interface ICountryEvent {
   years: string;
   type: IEventType;
   success: boolean;
   summary: string;
+  title: string;
+  countries: string[];
 }
-
-interface ICountryData {
-  country: string;
-  events: CountryEvent[];
-}
-
-const outcomeColors = [
-  [255, 0, 0],
-  [0, 255, 0],
-];
 
 export default function USInfiltrationMap() {
   const [geoJson, setGeoJson] = useState<FeatureCollection | null>(null);
@@ -65,15 +60,16 @@ export default function USInfiltrationMap() {
         const countryName = d.properties?.name;
         if (!countryName) return [200, 200, 200, 50];
 
-        const match = infiltrationData.find(
-          (c) => c.country.toLowerCase() === countryName.toLowerCase()
+        const countryEvents = events.filter((c) =>
+          c.countries.includes(countryName)
         );
 
-        if (match && match.events.length > 0) {
-          const succeededOnce = Math.max(
-            ...match.events.map((e) => +e.success)
-          );
-          const baseColor = outcomeColors[+succeededOnce];
+        if (countryEvents.length) {
+          const successfulEvents = countryEvents.filter(
+            (e) => e.success
+          ).length;
+          const score = successfulEvents / countryEvents.length;
+          const baseColor = greenRedMix(score);
           return [...baseColor, 200] as [number, number, number, number];
         }
 
@@ -92,19 +88,19 @@ export default function USInfiltrationMap() {
         const tooltip = document.getElementById("tooltip");
 
         if (tooltip && countryName) {
-          const country = infiltrationData.find(
-            (c) => c.country.toLowerCase() === countryName.toLowerCase()
+          const countryEvents = events.filter((c) =>
+            c.countries.includes(countryName)
           );
 
-          if (country) {
+          if (countryEvents.length) {
             tooltip.style.top = `${y}px`;
             tooltip.style.left = `${x}px`;
 
-            let tooltipContent = `<strong>${country.country}</strong>`;
-            country.events.forEach((event: CountryEvent) => {
-              tooltipContent += `<hr>${event.success ? "✅" : "❌"} ${
-                event.years
-              }, ${event.type}<br>${event.summary}`;
+            let tooltipContent = `<strong>${countryName}</strong>`;
+            countryEvents.forEach((event: ICountryEvent) => {
+              tooltipContent += `<hr><strong>${event.title}</strong>${
+                event.success ? "✅" : "❌"
+              } ${event.years}, ${event.type}<br>${event.summary}`;
             });
             tooltip.innerHTML = tooltipContent;
             tooltip.style.display = "block";
