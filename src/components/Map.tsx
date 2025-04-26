@@ -19,9 +19,17 @@ const INITIAL_VIEW_STATE = {
   bearing: 0,
 };
 
+const getLangFromHash = (): string | null => {
+  const hash = window.location.hash.substring(1);
+  const params = new URLSearchParams(hash);
+  return params.get("lang");
+};
+
 export default function InfiltrationMap() {
   const tooltipRef = useRef<ITooltipHandle>(null);
   const [language, setLanguageState] = useState<string>(() => {
+    const hashLang = getLangFromHash();
+    if (hashLang && ["en", "ru"].includes(hashLang)) return hashLang;
     return localStorage.getItem("userLanguage") || i18n.language;
   });
   const { geoJson, isLoadingGeoJson, errorGeoJson } = useGeoJson();
@@ -42,6 +50,11 @@ export default function InfiltrationMap() {
     setLanguageState(lang);
     localStorage.setItem("userLanguage", lang);
     i18n.changeLanguage(lang);
+
+    const newHash = `lang=${lang}`;
+    if (window.location.hash !== `#${newHash}`) {
+      window.history.pushState(null, "", `#${newHash}`);
+    }
   };
 
   if (isLoadingGeoJson || isLoadingEvents || isLoadingTranslations)
