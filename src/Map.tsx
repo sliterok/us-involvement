@@ -17,7 +17,7 @@ const INITIAL_VIEW_STATE = {
   bearing: 0,
 };
 
-export const InfiltrationMap = function InfiltrationMap() {
+export default function InfiltrationMap() {
   const [geoJson, setGeoJson] = useState<FeatureCollection | null>(null);
   const tooltipRef = useRef<ITooltipHandle>(null);
 
@@ -65,14 +65,11 @@ export const InfiltrationMap = function InfiltrationMap() {
       onHover: (info: PickingInfo) => {
         const { object, x, y } = info;
         const countryName = object?.properties?.name;
-        const tooltip = document.getElementById("tooltip");
+        const tooltip = tooltipRef.current;
+        if (!tooltip) return;
 
-        if (tooltip && countryName) {
-          tooltip.style.top = `${y}px`;
-          tooltip.style.left = `${x}px`;
-        }
-
-        tooltipRef.current?.set(countryName);
+        tooltip.set(countryName);
+        if (countryName) tooltip.move(x, y);
       },
     });
 
@@ -86,4 +83,4 @@ export const InfiltrationMap = function InfiltrationMap() {
       <Tooltip ref={tooltipRef} />
     </>
   );
-};
+}
