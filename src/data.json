@@ -1,0 +1,733 @@
+[
+  {
+    "country": "Afghanistan",
+    "events": [
+      {
+        "years": "1979-1992",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 2,
+        "summary": "CIA-backed mujahideen forced Soviet withdrawal, toppling the USSR-supported PDPA regime."
+      },
+      {
+        "years": "2001-2021",
+        "type": "Invasion / Occupation",
+        "outcome": 0,
+        "summary": "Post-9/11 invasion removed the Taliban but could not sustain a pro-U.S. government; Taliban regained power in 2021."
+      }
+    ]
+  },
+  {
+    "country": "Albania",
+    "events": [
+      {
+        "years": "1949-1953",
+        "type": "Coup",
+        "outcome": 0,
+        "summary": "CIA/MI6 parachuted exiles to spark an uprising against Enver Hoxha; most agents were captured or executed."
+      }
+    ]
+  },
+  {
+    "country": "Angola",
+    "events": [
+      {
+        "years": "1975-1991",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 2,
+        "summary": "Covert arms and funding for FNLA/UNITA against the Marxist MPLA; prolonged civil war ended without decisive U.S. victory."
+      }
+    ]
+  },
+  {
+    "country": "Argentina",
+    "events": [
+      {
+        "years": "1976",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Green light and diplomatic support for the military junta that ousted Isabel Perón; later integrated into Operation Condor."
+      }
+    ]
+  },
+  {
+    "country": "Austria",
+    "events": [
+      {
+        "years": "1917-1920",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "WW-I defeat forced dissolution of the Habsburg realm and installation of republican governments in Vienna and Budapest."
+      },
+      {
+        "years": "1945-1955",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Western occupation zones helped shape a neutral, democratic 2nd Republic after the State Treaty."
+      }
+    ]
+  },
+  {
+    "country": "Belgium",
+    "events": [
+      {
+        "years": "1944-1945",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Allied liberation ended Nazi rule and restored the Belgian Government-in-Exile."
+      }
+    ]
+  },
+  {
+    "country": "Bolivia",
+    "events": [
+      {
+        "years": "1971",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "CIA-supported General Banzer overthrew left-leaning Juan José Torres."
+      },
+      {
+        "years": "2019",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "Rapid OAS audit backed by Washington delegitimised Evo Morales’ re-election, precipitating his ouster; subsequent vote restored MAS."
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "events": [
+      {
+        "years": "1964",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Operation Brother Sam supplied fuel, communications gear and naval presence that ensured the overthrow of João Goulart."
+      }
+    ]
+  },
+  {
+    "country": "Guyana",
+    "events": [
+      {
+        "years": "1964",
+        "type": "Election Interference",
+        "outcome": 2,
+        "summary": "Covert funding, strike organisation and a CIA front party blocked Cheddi Jagan and installed the pro-Western Forbes Burnham."
+      }
+    ]
+  },
+  {
+    "country": "Cambodia",
+    "events": [
+      {
+        "years": "1959",
+        "type": "Coup",
+        "outcome": 0,
+        "summary": "CIA-financed plot by Interior-Minister Dap Chhuon against Prince Sihanouk collapsed; Chhuon executed."
+      },
+      {
+        "years": "1970",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Lon Nol (with quiet U.S. approval) used parliament to depose Sihanouk and create the Khmer Republic."
+      },
+      {
+        "years": "1970-1973",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Secret B-52 bombing (Menu / Freedom Deal) tried to cripple Khmer Rouge supply; heavy civilian toll, insurgency strengthened."
+      },
+      {
+        "years": "1979-1989",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 0,
+        "summary": "Post-Vietnam invasion U.S. backed anti-Vietnamese coalition (incl. Khmer Rouge) diplomatically; coalition never regained Phnom Penh."
+      }
+    ]
+  },
+  {
+    "country": "Chad",
+    "events": [
+      {
+        "years": "1981-1982",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "Military aid and French-U.S. airlift helped Hissène Habré seize N’Djamena from pro-Libyan forces."
+      }
+    ]
+  },
+  {
+    "country": "Chile",
+    "events": [
+      {
+        "years": "1964",
+        "type": "Election Interference",
+        "outcome": 2,
+        "summary": "CIA spent $2.6 M on Frei campaign & anti-Allende propaganda to block Socialist victory."
+      },
+      {
+        "years": "1970",
+        "type": "Assassination",
+        "outcome": 0,
+        "summary": "CIA-fuelled Schneider kidnapping plot mis-fired; general killed but Allende still elected."
+      },
+      {
+        "years": "1970-1973",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "‘Make the economy scream’: credit cut-offs, covert strikes and propaganda undermined Allende."
+      },
+      {
+        "years": "11 Sep 1973",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Project FUBELT enabled Pinochet to overthrow Allende; long-term military dictatorship followed."
+      }
+    ]
+  },
+  {
+    "country": "China",
+    "events": [
+      {
+        "years": "1950-1953",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 0,
+        "summary": "Operation Paper armed KMT remnants in northern Burma to reopen civil war in Yunnan; repelled by PLA, exposed at UN."
+      }
+    ]
+  },
+  {
+    "country": "Colombia",
+    "events": [
+      {
+        "years": "1903",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "Gunboat diplomacy backed Panamanian secession; U.S. obtained Canal Zone treaty."
+      }
+    ]
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "events": [
+      {
+        "years": "1960-1961",
+        "type": "Assassination",
+        "outcome": 2,
+        "summary": "U.S. backed forces that removed and murdered PM Patrice Lumumba."
+      },
+      {
+        "years": "1964",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Operation Dragon Rouge – U.S./Belgian airborne rescue crushed Simba rebellion in Stanleyville."
+      },
+      {
+        "years": "1965",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "CIA aided Mobutu’s second coup; Mobutu ruled for 32 years."
+      }
+    ]
+  },
+  {
+    "country": "Costa Rica",
+    "events": [
+      {
+        "years": "1948",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Financial & logistical aid to Figueres rebels after disputed election ousted Calderón government."
+      }
+    ]
+  },
+  {
+    "country": "Cuba",
+    "events": [
+      {
+        "years": "1898-1902 & 1906-1909",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Spanish-American War & Platt Amendment occupations shaped Cuban polity."
+      },
+      {
+        "years": "1959-1962",
+        "type": "Coup",
+        "outcome": 0,
+        "summary": "Bay-of-Pigs invasion and Operation Mongoose failed to overthrow Fidel Castro."
+      }
+    ]
+  },
+  {
+    "country": "Dominican Republic",
+    "events": [
+      {
+        "years": "1916-1924",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "U.S. Marines governed DR, reorganised finances & constabulary."
+      },
+      {
+        "years": "1961",
+        "type": "Assassination",
+        "outcome": 2,
+        "summary": "CIA weapons enabled plotters to kill dictator Rafael Trujillo."
+      }
+    ]
+  },
+  {
+    "country": "East Timor",
+    "events": [
+      {
+        "years": "1975-1999",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 0,
+        "summary": "Ford & Kissinger gave Suharto a green light for invasion; lobbying later sustained Indonesian occupation until UN referendum."
+      }
+    ]
+  },
+  {
+    "country": "Egypt",
+    "events": [
+      {
+        "years": "1952",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Extensive U.S.-Free Officers contact before Nasser’s overthrow of King Farouk."
+      }
+    ]
+  },
+  {
+    "country": "Ethiopia",
+    "events": [
+      {
+        "years": "1974-1991",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 2,
+        "summary": "Shifted guns-and-cash to EPLF & EPRDF insurgents after Mengistu sided with USSR; rebels captured Addis Ababa in 1991."
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "events": [
+      {
+        "years": "1944-1946",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "U.S./UK forces liberated France; supported provisional Gov. de Gaulle."
+      }
+    ]
+  },
+  {
+    "country": "Germany",
+    "events": [
+      {
+        "years": "1941-1949",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Defeat of Third Reich followed by denazification and creation of Federal Republic."
+      }
+    ]
+  },
+  {
+    "country": "Greece",
+    "events": [
+      {
+        "years": "1947-1949",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 2,
+        "summary": "Truman Doctrine military aid enabled royalist victory over Communist DSE in civil war."
+      }
+    ]
+  },
+  {
+    "country": "Grenada",
+    "events": [
+      {
+        "years": "1983",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Operation Urgent Fury removed Marxist Bishop successor regime; elections installed pro-U.S. government."
+      }
+    ]
+  },
+  {
+    "country": "Guatemala",
+    "events": [
+      {
+        "years": "1952 (Operation PBFortune)",
+        "type": "Coup",
+        "outcome": 0,
+        "summary": "Early CIA plan to arm Castillo Armas cancelled by Truman."
+      },
+      {
+        "years": "1954 (Operation PBSuccess)",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Psychological warfare and mercenary column toppled Jacobo Árbenz; series of right-wing regimes followed."
+      }
+    ]
+  },
+  {
+    "country": "Haiti",
+    "events": [
+      {
+        "years": "1915-1934",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "U.S. Marines ran customs, rewrote constitution, fought Caco rebels."
+      },
+      {
+        "years": "1991",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Military ouster of elected Pres. Aristide tacitly tolerated by U.S."
+      },
+      {
+        "years": "1994-1995",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Operation Uphold Democracy force-reinstalled Aristide under tight U.S. supervision."
+      },
+      {
+        "years": "2004",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Pressure and Marine deployment removed Aristide a second time."
+      }
+    ]
+  },
+  {
+    "country": "Honduras",
+    "events": [
+      {
+        "years": "1903-1925",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Series of Marine landings backing U.S. banana interests and compliant presidents."
+      }
+    ]
+  },
+  {
+    "country": "Indonesia",
+    "events": [
+      {
+        "years": "1957-1959",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 0,
+        "summary": "CIA-supplied Permesta rebels and CAT bomber crews failed to split the archipelago."
+      },
+      {
+        "years": "1965-1967",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Green light, arms and kill-lists enabled Suharto to destroy PKI and depose Sukarno."
+      }
+    ]
+  },
+  {
+    "country": "Iran",
+    "events": [
+      {
+        "years": "1953",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Operation Ajax/Boot bribed mobs & officers to oust PM Mosaddegh, strengthening the Shah."
+      }
+    ]
+  },
+  {
+    "country": "Iraq",
+    "events": [
+      {
+        "years": "1959",
+        "type": "Assassination",
+        "outcome": 0,
+        "summary": "CIA-linked Ba’ath attempt on PM Qasim survived; Saddam fled."
+      },
+      {
+        "years": "1963",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Ba’ath officers overthrew Qasim; U.S. offered rapid recognition & purge intelligence."
+      },
+      {
+        "years": "1991 & 1992-1996",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 0,
+        "summary": "Post-Gulf War covert aid to Shia/Kurdish uprisings fizzled."
+      },
+      {
+        "years": "2003-2021",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Operation Iraqi Freedom toppled Saddam; long insurgency, unstable democracy."
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "events": [
+      {
+        "years": "1941-1946",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Allied campaign toppled Mussolini; co-belligerent monarchy restored democracy."
+      },
+      {
+        "years": "1948-1960s",
+        "type": "Election Interference",
+        "outcome": 2,
+        "summary": "Massive covert funding and media ops kept the PCI out of government."
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "events": [
+      {
+        "years": "1945-1952",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Post-war MacArthur constitution & purge; amnesty for Emperor."
+      },
+      {
+        "years": "1945-1972 (Okinawa trusteeship)",
+        "type": "Occupation",
+        "outcome": 2,
+        "summary": "Direct U.S. civil administration, base construction, eventual reversion to Japan."
+      }
+    ]
+  },
+  {
+    "country": "Kyrgyzstan",
+    "events": [
+      {
+        "years": "2005",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Rapid U.S. diplomatic backing for Tulip Revolution ousted Pres. Akayev."
+      }
+    ]
+  },
+  {
+    "country": "Laos",
+    "events": [
+      {
+        "years": "1960",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Air America logistics & Thai artillery restored General Phoumi, tilting the civil-war balance."
+      }
+    ]
+  },
+  {
+    "country": "Libya",
+    "events": [
+      {
+        "years": "2011",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "NATO no-fly zone evolved into air campaign enabling rebels to kill Muammar Gaddafi."
+      }
+    ]
+  },
+  {
+    "country": "Mexico",
+    "events": [
+      {
+        "years": "1865-1867",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 2,
+        "summary": "Arms & volunteers helped Benito Juárez expel French and execute Emperor Maximilian."
+      },
+      {
+        "years": "1913",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Ambassador Henry Lane Wilson connived in ‘Ten Tragic Days’ putsch by Huerta."
+      }
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "events": [
+      {
+        "years": "1944-1945",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Allied forces liberated the country; soon returned to parliamentary rule."
+      }
+    ]
+  },
+  {
+    "country": "Nicaragua",
+    "events": [
+      {
+        "years": "1909-1910",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Naval landing forced resignation of Zelaya; Estrada installed."
+      },
+      {
+        "years": "1912-1933",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Extended Marine occupation, created National Guard later ruled by Somoza."
+      },
+      {
+        "years": "1981-1990",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 2,
+        "summary": "Contra war bled Sandinistas; 1990 election defeat accepted but FSLN later returned."
+      }
+    ]
+  },
+  {
+    "country": "Panama",
+    "events": [
+      {
+        "years": "1989-1994",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Operation Just Cause ousted Noriega; U.S. forces stayed through initial elections."
+      }
+    ]
+  },
+  {
+    "country": "Philippines",
+    "events": [
+      {
+        "years": "1899-1902",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Philippine-American War suppressed First Republic; U.S. colonial rule."
+      },
+      {
+        "years": "1944-1946",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "Allied liberation ended Japanese puppet state; U.S. managed transition to independence."
+      }
+    ]
+  },
+  {
+    "country": "Poland",
+    "events": [
+      {
+        "years": "1980-1989",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "Covert funding to Solidarność, economic sanctions on Jaruzelski; contributed to communist collapse."
+      }
+    ]
+  },
+  {
+    "country": "Russia",
+    "events": [
+      {
+        "years": "1918-1920",
+        "type": "Invasion / Occupation",
+        "outcome": 0,
+        "summary": "Polar Bear & Siberian Expeditions couldn’t prevent Bolshevik victory."
+      },
+      {
+        "years": "1986-1991",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "Arms race + embargoes & information ops accelerated USSR dissolution."
+      }
+    ]
+  },
+  {
+    "country": "Samoa",
+    "events": [
+      {
+        "years": "1887-1889",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 2,
+        "summary": "Gunboat diplomacy vs. Germany & UK backed competing claimants; stalemate ended with partition in 1899."
+      }
+    ]
+  },
+  {
+    "country": "South Korea",
+    "events": [
+      {
+        "years": "1945-1948",
+        "type": "Invasion / Occupation",
+        "outcome": 2,
+        "summary": "USAMGIK suppressed People’s Committees; engineered election of Syngman Rhee."
+      }
+    ]
+  },
+  {
+    "country": "Vietnam",
+    "events": [
+      {
+        "years": "1959-1963",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Cable 243 liaison encouraged generals to oust Diệm; ushered in junta era."
+      }
+    ]
+  },
+  {
+    "country": "Syria",
+    "events": [
+      {
+        "years": "1949",
+        "type": "Coup",
+        "outcome": 2,
+        "summary": "Husni al-Za’im coup approved TAPLINE; CIA connections later acknowledged."
+      },
+      {
+        "years": "1956-1957",
+        "type": "Coup",
+        "outcome": 0,
+        "summary": "Operations Straggle/Wappen bribed officers but plot exposed, U.S. agents expelled."
+      },
+      {
+        "years": "2005-2009",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 0,
+        "summary": "‘Syrian Accountability Act’ & covert media ops sought regime change after Hariri assassination."
+      },
+      {
+        "years": "2012-2017",
+        "type": "Proxy-War / Armed Support",
+        "outcome": 2,
+        "summary": "Timber Sycamore armed rebels; Assad survived with Russian/Iranian aid."
+      }
+    ]
+  },
+  {
+    "country": "Venezuela",
+    "events": [
+      {
+        "years": "2002",
+        "type": "Coup",
+        "outcome": 0,
+        "summary": "Brief ouster of Hugo Chávez after U.S. funded opposition NGOs; reversed in 48 h."
+      },
+      {
+        "years": "2019-2022",
+        "type": "Political Pressure / Sanctions",
+        "outcome": 0,
+        "summary": "Recognition of Juan Guaidó and oil sanctions failed to unseat Nicolás Maduro."
+      }
+    ]
+  },
+  {
+    "country": "Republic of Serbia",
+    "events": [
+      {
+        "years": "2000",
+        "type": "Election Interference",
+        "outcome": 2,
+        "summary": "OTPOR! training, cash and media aid assisted mass protests that toppled Slobodan Milošević."
+      }
+    ]
+  }
+]
