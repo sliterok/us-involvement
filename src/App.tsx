@@ -26,16 +26,10 @@ type IEventType =
   | "Assassination"
   | "Political Pressure / Sanctions";
 
-enum Outcome {
-  Failure,
-  Mixed,
-  Success,
-}
-
 interface CountryEvent {
   years: string;
   type: IEventType;
-  outcome: Outcome;
+  success: boolean;
   summary: string;
 }
 
@@ -44,15 +38,10 @@ interface ICountryData {
   events: CountryEvent[];
 }
 
-const outcomeColors = {
-  [Outcome.Failure]: [255, 0, 0],
-  [Outcome.Mixed]: [0, 255, 255],
-  [Outcome.Success]: [0, 255, 0],
-};
-
-const getColor = (outcome: CountryEvent["outcome"]) => {
-  return outcomeColors[outcome];
-};
+const outcomeColors = [
+  [255, 0, 0],
+  [0, 255, 0],
+];
 
 export default function USInfiltrationMap() {
   const [geoJson, setGeoJson] = useState<FeatureCollection | null>(null);
@@ -81,10 +70,10 @@ export default function USInfiltrationMap() {
         );
 
         if (match && match.events.length > 0) {
-          const bestOutcome = Math.max(
-            ...match.events.map((e) => e.outcome as number)
+          const succeededOnce = Math.max(
+            ...match.events.map((e) => +e.success)
           );
-          const baseColor = getColor(bestOutcome);
+          const baseColor = outcomeColors[+succeededOnce];
           return [...baseColor, 200] as [number, number, number, number];
         }
 
@@ -113,11 +102,9 @@ export default function USInfiltrationMap() {
 
             let tooltipContent = `<strong>${country.country}</strong>`;
             country.events.forEach((event: CountryEvent) => {
-              tooltipContent += `<hr>Years: ${event.years}<br>Type: ${
-                event.type
-              }<br>Outcome: ${Outcome[event.outcome]}<br>Summary: ${
-                event.summary
-              }`;
+              tooltipContent += `<hr>${event.success ? "✅" : "❌"} ${
+                event.years
+              }, ${event.type}<br>${event.summary}`;
             });
             tooltip.innerHTML = tooltipContent;
             tooltip.style.display = "block";
