@@ -9,12 +9,14 @@ const fetcher = (input: RequestInfo | URL, init?: RequestInit) =>
 export function useEvents() {
   const language = i18n.language;
   const {
-    data: events,
+    data,
     isLoading: isLoadingEvents,
     error: errorEvents,
   } = useSWR<ICountryEvent[]>(`${language}/data.json`, fetcher, {
     revalidateOnMount: true,
   });
+
+  const events = data?.sort((a, b) => parseInt(b.years) - parseInt(a.years));
 
   return {
     events,
