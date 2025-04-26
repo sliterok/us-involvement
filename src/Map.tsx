@@ -1,11 +1,11 @@
 import { PickingInfo } from "@deck.gl/core";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import DeckGL from "@deck.gl/react";
-import { Feature, FeatureCollection } from "geojson";
-import { useEffect, useState, useRef } from "react";
+import { Feature } from "geojson";
+import { useRef } from "react";
 import { greenRedMix } from "./helpers";
-import { events } from "./events";
 import { ITooltipHandle, Tooltip } from "./Tooltip";
+import { useEvents, useGeoJson } from "./hooks/fetchers";
 
 const INITIAL_VIEW_STATE = {
   longitude: 0,
@@ -18,16 +18,13 @@ const INITIAL_VIEW_STATE = {
 };
 
 export default function InfiltrationMap() {
-  const [geoJson, setGeoJson] = useState<FeatureCollection | null>(null);
   const tooltipRef = useRef<ITooltipHandle>(null);
 
-  useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson"
-    )
-      .then((res) => res.json())
-      .then((data) => setGeoJson(data));
-  }, []);
+  const { geoJson, isLoadingGeoJson, errorGeoJson } = useGeoJson();
+  const { events, isLoadingEvents, errorEvents } = useEvents();
+
+  if (isLoadingGeoJson || isLoadingEvents) return <div>loading...</div>;
+  if (!events || !geoJson) return <div>error loading events or geojson</div>;
 
   const layer =
     geoJson &&

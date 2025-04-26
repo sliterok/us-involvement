@@ -7,9 +7,9 @@ import {
   useRef,
   useCallback,
 } from "react";
-import { events } from "./events";
 import "./Tooltip.css";
 import { IEventType } from "./types";
+import { useEvents } from "./hooks/fetchers";
 
 export interface ITooltipHandle {
   set(countryName?: string): void;
@@ -29,6 +29,7 @@ export const Tooltip = memo(
   forwardRef<ITooltipHandle>((_, ref) => {
     const [tooltipCountry, setTooltipCountry] = useState<string>();
     const tooltipRef = useRef<HTMLDivElement>(null);
+    const { events } = useEvents();
 
     const moveTooltip = useCallback((x: number, y: number) => {
       const tooltip = tooltipRef.current;
@@ -46,9 +47,9 @@ export const Tooltip = memo(
     const tooltipEvents = useMemo(
       () =>
         tooltipCountry
-          ? events.filter((c) => c.countries.includes(tooltipCountry))
+          ? events?.filter((c) => c.countries.includes(tooltipCountry)) || []
           : [],
-      [tooltipCountry]
+      [tooltipCountry, events]
     );
 
     return (
