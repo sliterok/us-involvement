@@ -21,7 +21,9 @@ const INITIAL_VIEW_STATE = {
 
 export default function InfiltrationMap() {
   const tooltipRef = useRef<ITooltipHandle>(null);
-  const [language, setLanguageState] = useState<string>(i18n.language);
+  const [language, setLanguageState] = useState<string>(() => {
+    return localStorage.getItem("userLanguage") || i18n.language;
+  });
   const { geoJson, isLoadingGeoJson, errorGeoJson } = useGeoJson();
   const { events, isLoadingEvents, errorEvents } = useEvents();
   const { translations, isLoadingTranslations } = useTranslations();
@@ -38,6 +40,7 @@ export default function InfiltrationMap() {
 
   const changeLanguage = (lang: string) => {
     setLanguageState(lang);
+    localStorage.setItem("userLanguage", lang);
     i18n.changeLanguage(lang);
   };
 
